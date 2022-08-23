@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "wordas",
+    "name": "Wordas",
     "slug": "wordas",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -8,8 +8,7 @@
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "resizeMode": "cover",
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -24,7 +23,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.sasakiroo.wordas"
     },
     "web": {
       "favicon": "./assets/favicon.png"
